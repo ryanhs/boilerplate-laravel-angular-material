@@ -43,3 +43,10 @@ its just like 2 package in 1 folder. yeah
 
 ###### # Angular Development
 use `npm run dev` to build and watch
+
+
+
+# not yet implemented
+add angular material,
+hold on 1 day :-)
+i need to sleep now
