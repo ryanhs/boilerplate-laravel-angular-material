@@ -2,11 +2,11 @@
 
 This package only for boilerplate.
 currently:
-- laravel 5.4
-- angular 4.2
-- jadjoubran/laravel-angular 0.2.0
-- tymon/jwt-auth ^1.0@dev
-- 
+- [laravel 5.4](laravel.com/docs/5.4)
+- [angular 4.2](angular.io)
+- [jadjoubran/laravel-angular 0.2.0](https://laravel-angular.io/)
+- [tymon/jwt-auth ^1.0@dev](https://laravel-angular.io/docs/1/jwt-auth-install/)
+- [irazasyed/jwt-auth-guard](https://laravel-angular.io/docs/1/jwt-auth-install/)
 
 
 #### # Why it is almost separated
@@ -53,7 +53,7 @@ use `npm run dev` to build and watch
 
 
 
-# not yet implemented
-add angular material,
-hold on 1 day :-)
-i need to sleep now
+# material angular?
+yes!!
+- [material-angular](https://material.angular.io/)
+- [material-angular/components](https://material.angular.io/components)
