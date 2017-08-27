@@ -177,6 +177,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * 3rd-parties Service Providers...
+         */
+        Jadjoubran\LaravelAngular\Provider\LaravelServiceProvider::class,
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+        Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class,
     ],
 
     /*
@@ -226,6 +232,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * 3rd-parties Aliases...
+         */
+        //  ...
     ],
 
 ];

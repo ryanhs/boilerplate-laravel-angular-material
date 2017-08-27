@@ -4,6 +4,10 @@ This package only for boilerplate.
 currently:
 - laravel 5.4
 - angular 4.2
+- jadjoubran/laravel-angular 0.2.0
+- tymon/jwt-auth ^1.0@dev
+- 
+
 
 #### # Why it is almost separated
 i believe truly separated frontend and backend is the best
@@ -37,6 +41,9 @@ its just like 2 package in 1 folder. yeah
     - composer install
     - copy .env.example -> .env , then edit it
     - php artisan key:generate
+    - php artisan laravelangular:install
+    - php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+    - php artisan jwt:secret
 - on /public/ng/
     - npm install
     - `npm run build` for production compilation
