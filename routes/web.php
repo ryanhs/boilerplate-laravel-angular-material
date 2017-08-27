@@ -11,6 +11,12 @@
 |
 */
 
+// use angular frontend
 Route::get('/', function () {
-    return view('welcome');
+    $ngIndex = 'ng/dist/index.html';
+    if (!file_exists($ngIndex)) {
+        return 'please build angular first!';
+    }
+
+    require $ngIndex;
 });
