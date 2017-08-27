@@ -11,8 +11,8 @@ but we cant really separated it, can we? \*in common hosting environment, only 1
 
 for that reason, i make it all in one.
 
-** /api/... ** for laravel apps  
-** /ng/...  ** for angular source
+**/api/...** for laravel apps  
+**/ng/...** for angular source
 
 #### why angular in public? someone can download it right?
 right, because simple, angular held only views :-)
