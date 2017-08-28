@@ -10,15 +10,15 @@ currently:
 
 
 #### # Why it is almost separated
-i believe truly separated frontend and backend is the best
-but we cant really separated it, can we? \*in common hosting environment, only 1 port
+I believe truly separated frontend and backend is the best.  
+But we cant really separated it, can we? \*in common hosting environment, only 1 port
 
-for that reason, i make it all in one.
+For that reason, i make it all in one.
 
 **/api/...** for laravel apps  
 **/ng/...** for angular source
 
-#### # Explaination
+#### # Explanation
 - /public/ng  
 whole angular source, and its own node_modules to be accessed by public
 
@@ -33,10 +33,10 @@ added prebuilt-themes/indigo-pink, but get start to do more styling if needed
 -
 
 #### # Why angular in public? someone can download it right?
-right, because simple, angular held only views :-)
+right, because simple, angular only views :-)
 mostly html+js+css+images. doesn't it always downloaded by browser?
 
-even whole angular package? src too?
+even whole angular package? src too?  
 yes, dedicated node_modules too :-p,  
 its just like 2 package in 1 folder. yeah
 
