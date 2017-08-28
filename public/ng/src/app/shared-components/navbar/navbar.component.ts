@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {
+	Component, OnInit,
+	Input
+} from '@angular/core';
 
 @Component({
-  selector: 'shared-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+	selector: 'shared-navbar',
+	templateUrl: './navbar.component.html',
+	styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+@Input() sidenav: any;
 
-  constructor() { }
+	constructor() { }
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
 }

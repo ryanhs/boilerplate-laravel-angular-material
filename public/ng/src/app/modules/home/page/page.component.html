@@ -1,5 +1,44 @@
-<shared-navbar></shared-navbar>
+<shared-navbar [sidenav]="sidenav"></shared-navbar>
 
-<p>
-  home page works!
-</p>
+<md-sidenav-container id="container">
+	<md-sidenav #sidenav class="sidenav"  mode="side" opened="true">
+		<md-list>
+            <h3 md-subheader>Sub Menu</h3>
+			<md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 1</span></a></md-list-item>
+            <md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 2</span></a></md-list-item>
+
+            <h3 md-subheader>Sub Menu</h3>
+            <md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 3</span></a></md-list-item>
+		</md-list>
+	</md-sidenav>
+
+	<div class="content">
+        <h1>Did you enjoy your meal, Mom? You drank it fast enough.</h1>
+        <p>No… but I'd like to be asked! I care deeply for nature. Guy's a pro. Army had half a day. Across from where?</p>
+        <p>I'm half machine. I'm a monster. Did you enjoy your meal, Mom? You drank it fast enough. Get me a vodka rocks. <strong> And a piece of toast.</strong> <em> Really?</em> Did nothing cancel?</p>
+        <h2>Get me a vodka rocks. And a piece of toast.</h2>
+        <p>Guy's a pro. We just call it a sausage. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+        <ol>
+        <li>That's why you always leave a note!</li><li>I hear the jury's still out on science.</li><li>That's why you always leave a note!</li>
+        </ol>
+
+        <h3>Now, when you do this without getting punched in the chest, you'll have more fun.</h3>
+        <p>Marry me. Well, what do you expect, mother? I'm a monster. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+        <ul>
+        <li>No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</li><li>I care deeply for nature.</li><li>It's called 'taking advantage.' It's what gets you ahead in life.</li>
+        </ul>
+
+        <p>There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor. I don't criticize you! And if you're worried about criticism, sometimes a diet is the best defense.</p>
+        <p>Really? Did nothing cancel? There's so many poorly chosen words in that sentence. Really? Did nothing cancel? Get me a vodka rocks. And a piece of toast. Whoa, this guy's straight?</p>
+        <p>I hear the jury's still out on science. I care deeply for nature. I'm a monster. Marry me. Across from where?</p>
+        <p>Now, when you do this without getting punched in the chest, you'll have more fun. Marry me. I care deeply for nature. I've opened a door here that I regret.</p>
+        <p>It's a hug, Michael. I'm hugging you. Steve Holt! Guy's a pro. Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. First place chick is hot, but has an attitude, doesn't date magicians.</p>
+        <p>First place chick is hot, but has an attitude, doesn't date magicians. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+        <p>Well, what do you expect, mother? Whoa, this guy's straight? What's Spanish for "I know you speak English?" What's Spanish for "I know you speak English?"</p>
+        <p>It's a hug, Michael. I'm hugging you. Marry me. Whoa, this guy's straight? I'm a monster.</p>
+        <p>I care deeply for nature. That's why you always leave a note! Really? Did nothing cancel? No! I was ashamed to be SEEN with you. I like being with you. What's Spanish for "I know you speak English?"</p>
+        <p>Get me a vodka rocks. And a piece of toast. That's why you always leave a note! Now, when you do this without getting punched in the chest, you'll have more fun. As you may or may not know, Lindsay and I have hit a bit of a rough patch.</p>
+        <p>Across from where? Get me a vodka rocks. And a piece of toast. Say goodbye to these, because it's the last time! I don't understand the question, and I won't respond to it.</p>
+	</div>
+
+</md-sidenav-container>

@@ -1,5 +1,5 @@
 <nav id="navbar">
-    <button type="button" class="nav-menu" md-button (click)="sidenav.toggle()"><md-icon>menu</md-icon></button>
+    <button type="button" class="nav-menu" md-button *ngIf="sidenav" (click)="sidenav.toggle()"><md-icon>menu</md-icon></button>
 	<a md-button class="nav-button" routerLink="/home" routerLinkActive="active-link" aria-label="L54-NG42">
 		<md-icon>home</md-icon>&nbsp;<span>Home</span>
 	</a>

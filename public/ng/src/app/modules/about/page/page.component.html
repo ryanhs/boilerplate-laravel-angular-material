@@ -1,5 +1,23 @@
-<shared-navbar></shared-navbar>
+<shared-navbar [sidenav]="sidenav"></shared-navbar>
 
-<p>
-  about page works!
-</p>
+
+<md-sidenav-container id="container">
+	<md-sidenav #sidenav class="sidenav"  mode="side" opened="true">
+		<md-list>
+            <h3 md-subheader>Sub Menu</h3>
+			<md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 1</span></a></md-list-item>
+            <md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 2</span></a></md-list-item>
+
+            <h3 md-subheader>Sub Menu</h3>
+            <md-list-item><a md-button class="sidenav-button" routerLink="about"><span>{{title}} - 3</span></a></md-list-item>
+		</md-list>
+	</md-sidenav>
+
+	<div class="content">
+
+        <p>
+          about page works!
+        </p>
+    </div>
+
+</md-sidenav-container>

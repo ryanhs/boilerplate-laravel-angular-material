@@ -1,0 +1,22 @@
+#content {
+    min-height: 600px;
+}
+
+
+#container {
+    .sidenav {
+        width:240px;
+        background: #fff;
+
+        .sidenav-button {
+            width:100%;
+            text-align: left;
+        }
+    }
+
+    .content {
+        min-height:500px;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+}

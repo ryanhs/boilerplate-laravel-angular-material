@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
 	imports: [
+		CommonModule,
         RouterModule,
 		MaterialAngularIOModule
     ],
