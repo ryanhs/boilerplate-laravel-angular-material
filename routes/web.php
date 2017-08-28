@@ -12,11 +12,12 @@
 */
 
 // use angular frontend
-Route::get('/', function () {
+// Route::get('/', $angular);
+Route::get('/{any}', function () {
     $ngIndex = 'ng/dist/index.html';
     if (!file_exists($ngIndex)) {
         return 'please build angular first!';
     }
 
     require $ngIndex;
-});
+})->where('any', '^(?!(api\/.*)$).*');
