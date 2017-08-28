@@ -26,6 +26,11 @@ whole angular source, and its own node_modules to be accessed by public
 you can see in route "/", i change it to index.html from angular, yeah its the only needed to connect to the angular.
 **mostly we only use /api/... url from laravel :-)**
 
+- /public/ng/src/style.css -> /public/ng/src/main.scss  
+added prebuilt-themes/indigo-pink, but get start to do more styling if needed
+
+
+-
 
 #### # Why angular in public? someone can download it right?
 right, because simple, angular held only views :-)

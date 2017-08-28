@@ -81,7 +81,7 @@ export class MaterialModule {}
 // ----------------------------------------------------- END / material angular
 
 
-
+import 'hammerjs';
 import { AppComponent } from './app.component';
 
 

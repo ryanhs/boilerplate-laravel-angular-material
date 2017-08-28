@@ -1,0 +1,52 @@
+md-grid-tile {
+	background: lightblue;
+}
+
+nav.navbar {
+	background: #495f90;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 8px 16px;
+
+    .nav-menu {
+		color: #fff;
+    }
+
+	.nav-button {
+		color: #fff;
+
+		img.nav-logo {
+			height: 26px;
+		}
+	}
+
+	.flex-spacer {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+}
+
+.container {
+    .sidenav {
+        width:240px;
+        background: #fff;
+
+        .sidenav-button {
+            width:100%;
+            text-align: left;
+        }
+    }
+
+    .content {
+        min-height:500px;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+}
