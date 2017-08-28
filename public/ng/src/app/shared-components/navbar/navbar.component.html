@@ -1,5 +1,13 @@
-<div id="navbar">
-    <a routerLink="/" routerLinkActive="active">Home</a>
-    <a routerLink="/about" routerLinkActive="active">About</a>
-</div>
-<hr/>
+<nav id="navbar">
+    <button type="button" class="nav-menu" md-button (click)="sidenav.toggle()"><md-icon>menu</md-icon></button>
+	<a md-button class="nav-button" routerLink="/home" routerLinkActive="active-link" aria-label="L54-NG42">
+		<md-icon>home</md-icon>&nbsp;<span>Home</span>
+	</a>
+	<a md-button class="nav-button" routerLink="/about" routerLinkActive="active-link"><span>About</span></a>
+
+	<div class="flex-spacer"></div>
+
+	<a md-button class="nav-button">
+		<md-icon>power_settings_new</md-icon>&nbsp;<span>Logout</span>
+	</a>
+</nav>
