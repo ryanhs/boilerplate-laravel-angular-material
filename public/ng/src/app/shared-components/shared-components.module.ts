@@ -9,6 +9,7 @@ import 'hammerjs';
 
 // components
 import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
 	imports: [
@@ -17,10 +18,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 		MaterialAngularIOModule
     ],
 	exports: [
-        NavbarComponent
+        NavbarComponent,
+		SidenavComponent
     ],
 	declarations: [
-		NavbarComponent
+		NavbarComponent,
+		SidenavComponent
 	],
 })
 export class SharedComponentsModule { }
